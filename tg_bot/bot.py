@@ -1,8 +1,8 @@
 from telegram import Bot, Update, InlineKeyboardButton, InlineKeyboardMarkup, ParseMode
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackQueryHandler
 from datetime import datetime
-from bot.tg_bot.config import TOKEN
-from bot.tg_bot.db import init_db, add_message, day_list, delete_day_values
+from timetable_tg_bot.tg_bot.config import TOKEN
+from timetable_tg_bot.tg_bot.db import init_db, add_message, day_list, delete_day_values
 
 
 week = [
